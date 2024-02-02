@@ -1,0 +1,26 @@
+{
+  "name": "septimo-proyecto-2",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex030396/Septimo-Proyecto.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Alex J Briceño H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex030396/Septimo-Proyecto/issues"
+  },
+  "homepage": "https://github.com/Alex030396/Septimo-Proyecto#readme",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}
