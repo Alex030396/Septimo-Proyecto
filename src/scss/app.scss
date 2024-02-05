@@ -1,4 +1,4 @@
-$rojo: rgb(245, 19, 226);
-body {
-    background-color: $rojo;
-}
+@use 'base';
+@use 'contenido';
+@use 'Layout';
+
