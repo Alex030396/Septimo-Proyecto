@@ -19,6 +19,9 @@ const sass = require('gulp-sass')(require('sass'));
 const plumber = require('gulp-plumber');
 
 //Imagenes
+
+// import webp from 'gulp-webp';
+
 const webp = require( 'gulp-webp');
 
 function css(done) {
@@ -38,6 +41,7 @@ function versionWebp( done ) {
         .pipe( dest('build/img') )
     done();
 }
+  
 function dev(done){
     watch('src/scss/**/*.scss', css);  //Para que la terminal lo vaya ejecutando automaticamente.
     done();
@@ -45,3 +49,5 @@ function dev(done){
 exports.css = css;
 exports.versionWebp = versionWebp;
 exports.dev = parallel(versionWebp, dev); 
+// exports.dev =  dev; 
+
