@@ -30,3 +30,8 @@
         @content;
     }
 }
+@mixin grid($columnas, $espacio){
+    grid-template-columns: repeat($columnas, 1fr);
+    display: grid;
+    gap: $espacio;
+}
